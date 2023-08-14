@@ -2,7 +2,7 @@
         Проверить, является ли массив возрастающей последовательностью (каждое следующее
         число больше предыдущего).*/
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 public class Task_6 {
     public static void main(String[] args) {
