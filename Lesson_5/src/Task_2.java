@@ -1,3 +1,17 @@
+/*Задача 2:
+        Создать программу для раскраски шахматной доски с помощью цикла. Создать
+        двумерный массив String 8х8. С помощью циклов задать элементам массива значения
+        B(Black) или W(White). При выводе результат работы программы должен быть
+        teachmeskills.by
+        следующим:
+        W B W B W B W B
+        B W B W B W B W
+        W B W B W B W B
+        B W B W B W B W
+        W B W B W B W B
+        B W B W B W B W
+        W B W B W B W B
+        B W B W B W B W*/
 public class Task_2 {
     public static void main(String[] args) {
         String[][] arr = new String[8][8];
