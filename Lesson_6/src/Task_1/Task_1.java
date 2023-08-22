@@ -10,12 +10,12 @@ package Task_1;
 
 import java.util.Scanner;
 
-public class Task_1 extends CreditCard{
-    public static void main(String[] args)
-    {
+public class Task_1 extends CreditCard {
+    public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         CreditCard cC = new CreditCard();
-        for (int i= 0; i<100; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println("What you wanna do?");
             System.out.println("1 - info about card");
             System.out.println("2 - add money");
@@ -34,9 +34,13 @@ public class Task_1 extends CreditCard{
                     cC.withdraw();
                     break;
                 case 4:
-                    cC.allinfo();
+                    for (int j = 0; j < cC.getCardNumber().length; j++) {
+                        System.out.print("Card Number - " + cC.getCardNumber()[j] + ", ");
+                        System.out.println("Money - " + cC.getMoneyOnThecard()[j]);
+                    }
                     break;
             }
         }
     }
 }
+

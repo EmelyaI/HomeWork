@@ -28,15 +28,14 @@ public class CreditCard {
         System.out.println("Card number - " + cardNumber[n - 1]);
         System.out.println("Money - " + moneyOnThecard[n - 1]);
     }
-    public int add (){
+    public void add (){
         System.out.println("What is you card number?");
         int n = scanner.nextInt();
         System.out.println("How much money you wanna add?");
         int ad = scanner.nextInt();
         moneyOnThecard[n - 1] += ad;
-        return moneyOnThecard[n - 1];
     }
-    public int withdraw (){
+    public void withdraw (){
         System.out.println("What is you card number?");
         int n = scanner.nextInt();
         System.out.println("How much money you wanna withdraw?");
@@ -47,15 +46,8 @@ public class CreditCard {
         }else
         {
             moneyOnThecard[n - 1] -= ad;
-            return moneyOnThecard[n - 1];
+
         }
 
-        return 0;
-    }
-    public void allinfo (){
-        for (int i = 0; i<cardNumber.length; i++) {
-            System.out.print("Card Number - " + cardNumber[i] + ", ");
-            System.out.println("Money - " + moneyOnThecard[i]);
-        }
     }
 }
