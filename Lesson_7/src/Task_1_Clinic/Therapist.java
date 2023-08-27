@@ -5,21 +5,20 @@ public class Therapist extends Doctor {
     public void TreatmentMethod() {
         System.out.println("Treatment method - therapist");
     }
-    public String who_will_treat(int a) {
+    public void who_will_treat(int a) {
 
         Therapist therapist = new Therapist();
-        Patient patient = new Patient();
         if (a == 1) {
             Surgeon surgeon = new Surgeon();
             surgeon.TreatmentMethod();
-            return doc = "Surgeon";
+            doc = "Surgeon";
         } else if (a == 2) {
             Dentist dantist = new Dentist();
             dantist.TreatmentMethod();
-            return doc = "Dantist";
+            doc = "Dantist";
         } else {
             therapist.TreatmentMethod();
-            return doc = "Therapist";
+            doc = "Therapist";
         }
     }
     public String getDoc() {

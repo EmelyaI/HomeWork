@@ -12,7 +12,7 @@ public class Patient {
     public void setTreatmentPlan(int treatmentPlan) {
         this.treatmentPlan = treatmentPlan;
     }
-    public String getDoctor(String doctor) {
+    public String getDoctor() {
         return this.doctor;
     }
     public String setDoctor(String doctor) {
