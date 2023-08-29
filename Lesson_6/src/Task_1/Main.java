@@ -8,7 +8,6 @@
         третьей. Выведите на экран текущее состояние всех трех карточек.*/
 package Task_1;
 
- Task_6_1
 import java.util.Scanner;
 
 public class Main extends CreditCard {
