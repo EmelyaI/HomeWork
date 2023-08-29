@@ -8,8 +8,39 @@
         третьей. Выведите на экран текущее состояние всех трех карточек.*/
 package Task_1;
 
-public class Main {
+ Task_6_1
+import java.util.Scanner;
+
+public class Main extends CreditCard {
     public static void main(String[] args) {
-        CreditCard c_c = new CreditCard();
+
+        Scanner scanner = new Scanner(System.in);
+        CreditCard cC = new CreditCard();
+        for (int i = 0; i < 100; i++) {
+            System.out.println("What you wanna do?");
+            System.out.println("1 - info about card");
+            System.out.println("2 - add money");
+            System.out.println("3 - withdraw money");
+            System.out.println("4 - info about all cards");
+            int a = scanner.nextInt();
+            switch (a) {
+                case 1:
+                    cC.info();
+                    break;
+                case 2:
+
+                    cC.add();
+                    break;
+                case 3:
+                    cC.withdraw();
+                    break;
+                case 4:
+                    for (int j = 0; j < cC.getCardNumber().length; j++) {
+                        System.out.print("Card Number - " + cC.getCardNumber()[j] + ", ");
+                        System.out.println("Money - " + cC.getMoneyOnThecard()[j]);
+                    }
+                    break;
+            }
+        }
     }
 }
