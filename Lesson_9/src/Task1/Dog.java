@@ -3,7 +3,7 @@ package Task1;
 import java.util.Objects;
 
 public class Dog implements Animal {
-    private static final String voice = "Woof";
+    private static final String VOICE = "Woof";
     private String Food;
 
     public Dog(String food) {
@@ -12,7 +12,7 @@ public class Dog implements Animal {
 
     @Override
     public void Voice() {
-        System.out.println(voice);
+        System.out.println(VOICE);
     }
 
     @Override
