@@ -12,7 +12,7 @@ public class Dog implements Animal {
 
     @Override
     public void Voice() {
-
+        System.out.println(voice);
     }
 
     @Override
