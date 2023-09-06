@@ -1,7 +1,7 @@
 package additionalTask;
 
 public class Fouth {
-    private String[] arr = {};
+    private String[] arr;
 
     public Fouth(String[] arr) {
         this.arr = arr;

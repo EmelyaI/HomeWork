@@ -1,7 +1,7 @@
 package additionalTask;
 
 public class First {
-    private String[] arr = {};
+    private String[] arr;
 
     public First(String[] arr) {
         this.arr = arr;
@@ -11,7 +11,7 @@ public class First {
         String shortest = arr[0];
         String shortest1 = arr[1];
         String longest = arr[0];
-        String longest1 = arr[1];
+        String longest1;
         for (int i = 1; i < arr.length; i++) {
 
             if (arr[i - 1].length() < arr[i].length()) {

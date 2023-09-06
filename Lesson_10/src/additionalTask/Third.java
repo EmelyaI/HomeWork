@@ -1,7 +1,7 @@
 package additionalTask;
 
 public class Third {
-    private String[] arr = {};
+    private String[] arr;
 
     public Third(String[] arr) {
         this.arr = arr;

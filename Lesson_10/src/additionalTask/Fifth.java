@@ -1,14 +1,13 @@
 package additionalTask;
 
 public class Fifth {
-    private String[] arr = {};
+    private String[] arr;
 
     public Fifth(String[] arr) {
         this.arr = arr;
     }
 
     public void duplication(String[] arr) {
-        StringBuffer stringBuffer = new StringBuffer();
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
             String str = "";
