@@ -3,6 +3,6 @@
 //        сделать несколько коммитов. Смержить в мастер ветку.
  class First_Try {
     public static void main(String[] args) {
-        System.out.println("ThirdCommBranch2");
+        System.out.println("ThirdCommBranch3");
     }
 }
