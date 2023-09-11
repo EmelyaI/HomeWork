@@ -2,18 +2,19 @@ public class Check {
     private String login;
     private String password;
     private String confirmPassword;
-    public static void checkLogin()
-    {
+
+    public static void checkLogin(String login) {
 
     }
-    public static void checkPassword()
-    {
+
+    public static void checkPassword() {
 
     }
-    public static void checkConfirmPassword()
-    {
+
+    public static void checkConfirmPassword() {
 
     }
+
     public Check(String login, String password, String confirmPassword) {
         this.login = login;
         this.password = password;

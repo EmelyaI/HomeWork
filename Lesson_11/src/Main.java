@@ -6,6 +6,6 @@ public class Main {
         String login = scanner.next();
         String password = scanner.next();
         String confirmPassword = scanner.next();
-        Check check = new Check(login,password,confirmPassword);
+        Check check = new Check(login, password, confirmPassword);
     }
 }
