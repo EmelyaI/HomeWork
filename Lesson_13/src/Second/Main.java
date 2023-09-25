@@ -12,8 +12,7 @@ public class Main {
         String animal;
         Scanner scanner = new Scanner(System.in);
         Fmain fmain = new Fmain();
-        for(int i = 0; i<10; i++)
-        {
+        for (int i = 0; i < 10; i++) {
             int z = scanner.nextInt();
             switch (z) {
                 case 1:
